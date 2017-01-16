@@ -7,8 +7,8 @@
 * Making fetch-js calls
 
 ##Table of Contents
-1. [Resources](#react-native-for-android)
-2. [Android set up](#android-set-up)
+1. [Resources](#resources)
+2. [React Native Inital Setup](#react-native-inital-setup)
 
 
 #Resources
@@ -22,7 +22,7 @@
 >* [Fetch-JS](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 >* *[Navigator](https://facebook.github.io/react-native/docs/using-navigators.html)
 
-##Android set up vs iOS setup
+##React Native Inital setup
 
 ####install homebrew
 In your comand line type
@@ -35,7 +35,8 @@ In your comand line type
 ####install react-native-cli
 > "npm install -g react-native-cli"
 
-####Android-react-native set up(First Time setup only)
+####Android-react-native set up
+(First Time setup only)
 ># if you are setting up for iOS go to [iOS Setup]()
 ##### Andorid studio
 >Download [Android Studio](https://developer.android.com/studio/install.html)
