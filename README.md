@@ -8,11 +8,11 @@
 
 ## Table of Contents
 1. [Resources](#resources)
-2. [React Native Inital Setup](#react-native-inital-setup)
+2. [React Native Inital Setup](https://github.com/Joshuaf91/react-native-for-android/blob/master/react-native-inital-setup.md#react-native-inital-setup)
 
-	-[Android setup](#android-react-native-set-up)
+	-[Android setup](https://github.com/Joshuaf91/react-native-for-android/blob/master/react-native-inital-setup.md#android-react-native-set-up)
 	
-	-[iOS setup](#ios-react-native-set-up)
+	-[iOS setup](https://github.com/Joshuaf91/react-native-for-android/blob/master/react-native-inital-setup.md#ios-react-native-set-up)
 
 
 # Resources
