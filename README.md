@@ -9,7 +9,9 @@
 ## Table of Contents
 1. [Resources](#resources)
 2. [React Native Inital Setup](#react-native-inital-setup)
+
 	-[Android setup](#android-react-native-set-up)
+	
 	-[iOS setup](#ios-react-native-set-up)
 
 
