@@ -1,24 +1,24 @@
 # React Native Inital setup
 
-### install homebrew
+###### install homebrew
 In your comand line type
 >* "/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### install nodeand watchman
+###### install nodeand watchman
 > "brew install node"
 > "brew install watchman"
 
-### install react-native-cli
+###### install react-native-cli
 > "npm install -g react-native-cli"
 
-### Android-react-native set up
+#### Android-react-native set up
 (First Time setup only)
 >## if you are setting up for iOS go to [iOS Setup](#ios-react-native-set-up)
 
-#### Andorid studio
+###### Andorid studio
 >Download [Android Studio](https://developer.android.com/studio/install.html)
 
-#### Genemotion set up 
+###### Genemotion set up 
 > 1. online sign up
 >> 1. got to [genemotion](https://www.genymotion.com/account/login/) sign up register and download/Install
 > 2. open genemotion and add the device of your choice
@@ -26,4 +26,4 @@ In your comand line type
 >> 1. if installed with brew ""
 >> 2. if installed with Android Studio ""
 
-### iOS-react-native-set-up
+#### iOS-react-native-set-up
