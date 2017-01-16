@@ -7,8 +7,8 @@
 * Making fetch-js calls
 
 ##Table of Contents
-1. [Resources](file:///var/folders/th/mrq9wqts2zv2dvj9rlzh2xrr0000gp/T/43.html#resources)
-2. [Android set up](file:///var/folders/th/mrq9wqts2zv2dvj9rlzh2xrr0000gp/T/43.html#android-set-up)
+1. [Resources](#react-native-for-android)
+2. [Android set up](#android-set-up)
 
 
 #Resources
@@ -37,7 +37,8 @@ In your comand line type
 
 ####Android-react-native set up(First Time setup only)
 ># if you are setting up for iOS go to [iOS Setup]()
-##### Download [Android Studio](https://developer.android.com/studio/install.html)
+##### Andorid studio
+>Download [Android Studio](https://developer.android.com/studio/install.html)
 ##### Genemotion set up 
 > 1. online sign up
 >> 1. got to [genemotion](https://www.genymotion.com/account/login/) sign up register and download/Install
