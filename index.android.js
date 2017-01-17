@@ -11,13 +11,16 @@ import {
   Text,
   View
 } from 'react-native';
+
 import ListView from './component/listView.js';
 import Example from './component/example.js';
+
 export default class workshop extends Component {
   render() {
     return (
       <View style={styles.container}>
         <ListView/>
+        <Example/>
         {/*<Text style={styles.welcome}>
                   Welcome to React Native!
                 </Text>
