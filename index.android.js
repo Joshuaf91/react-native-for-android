@@ -12,6 +12,7 @@ import {
   View
 } from 'react-native';
 import ListView from './component/listView.js';
+import Example from './component/example.js';
 export default class workshop extends Component {
   render() {
     return (

@@ -9,11 +9,9 @@
 ## Table of Contents
 1. [Resources](#resources)
 2. [React Native Inital Setup](https://github.com/Joshuaf91/react-native-for-android/blob/master/react-native-inital-setup.md#react-native-inital-setup)
-
 	-[Android setup](https://github.com/Joshuaf91/react-native-for-android/blob/master/react-native-inital-setup.md#android-react-native-set-up)
-	
 	-[iOS setup](https://github.com/Joshuaf91/react-native-for-android/blob/master/react-native-inital-setup.md#ios-react-native-set-up)
-
+3. [running your project](#to-run)
 
 # Resources
 >* [react-native getting started](https://facebook.github.io/react-native/docs/getting-started.html)
@@ -29,13 +27,18 @@
 
 
 
-## To run: ##
+## To run:
+$ npm install
+for iOS
+$ react-native ios
+for Android
+$ react-native android
+>If you get an error while building that says "something" you need to follow the following steps cd into your folder AwsomeProject and run the following in your terminal
+	
+>"cd android
+>touch local.properties
+>cd .."
 
-1.
-2.
+>open up the local.properties file and enter "sdk.dir = /usr/local/Cellar/android-sdk/24.4.1_1"
 
-  $ npm install
-  for iOS
-  $ react-native ios
-  for Android
-  $ react-native android
+>cd back into AwsomeProject and run "react-native run-android"
