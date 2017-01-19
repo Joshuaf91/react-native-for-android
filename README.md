@@ -31,9 +31,13 @@
 
 
 ## To run:
-$ npm install
-for iOS
+
+
+`$ npm install` for iOS:
+
+```
 $ react-native run-ios
+```
 for Android
 $ react-native run-android
 >If you get an error while building that says "something" you need to follow the following steps cd into your folder AwsomeProject and run the following in your terminal
