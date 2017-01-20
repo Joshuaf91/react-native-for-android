@@ -74,7 +74,7 @@ You're going to need to creat an online sign up. Remember this login because you
 
  - Go to [genymotion](https://www.genymotion.com/account/login/) sign up register and download/install
 open genymotion and add the device of your choice
-go into "setting > ADB" and in the Android SDK enter `/usr/local/Cellar/android-sdk/24.4.1_.1`
+go into "setting > ADB" and in the Android SDK enter `/usr/local/Cellar/android-sdk/24.4.1_1`
 
 <!-- Once that's done, go to your terminal and type:
 
