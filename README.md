@@ -2,7 +2,7 @@
 
 # Objective
 * Setting up a React Native project
-* Ability to create the equivalent of "div, p, img, ul" tags in React Native
+* Ability to create the equivalent of `div`, `p`, `img`, `ul` tags in React Native
 * Ability to navigate multiple pages
 * Making fetch-js calls
 
