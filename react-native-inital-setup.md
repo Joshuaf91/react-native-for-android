@@ -93,7 +93,7 @@ After the AVD Manager pops up, click the "create..." button on the right and sta
 
 
 ###### 6. Set up the ANDROID_HOME environment variable
-In your terminal type,
+In your terminal type:
 ```
 sudo vim ~/.bashrc
 ```
