@@ -36,10 +36,14 @@ If you get 1.8.x_xxx, download [Android Studio](https://developer.android.com/st
 
 - To download Java go here [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
+Then type this into your terminal:
+
+```
+brew install android-sdk
+```
+
 
 ###### 2. Android JDK
-
-#(maybe standard installation is okay too?)
 
 Choose Custom installation when running Android Studio for the first time. Make sure the boxes next to all of the following are checked:
 
@@ -60,7 +64,19 @@ Once you’re done, click “Launch Standalone SDK Manager” near the bottom.
 
 Check off "Android SDK Build-tools 23.0.1" and install it.
 
-Once that's done, go to your terminal and type:
+######4. Setting up your Virtual Device
+
+[download virtualbox](https://www.virtualbox.org/wiki/Downloads)
+
+######5. Genymotion set up
+
+You're going to need to creat an online sign up. Remember this login because you will need it to use genymotion 
+
+ - Go to [genymotion](https://www.genymotion.com/account/login/) sign up register and download/install
+open genymotion and add the device of your choice
+go into "setting > ADB" and in the Android SDK enter `/usr/local/Cellar/android-sdk/24.4.1_.1`
+
+<!-- Once that's done, go to your terminal and type:
 
 ```
 android avd
@@ -73,7 +89,7 @@ After the AVD Manager pops up, click the "create..." button on the right and sta
 - Pick a target => We recommend 6.0 Marshmallow
 - For CPU => Pick Intel Atom x86
 - Pick a  Skin => We recommend Skin with dynamic hardware control
-- Check off use host GPU (it's near the bottom of the window and occasioanlly gets cut off on smaller displays. You may have to make the window larger)
+- Check off use host GPU (it's near the bottom of the window and occasioanlly gets cut off on smaller displays. You may have to make the window larger) -->
 
 
 ###### 6. Set up the ANDROID_HOME environment variable
