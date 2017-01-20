@@ -28,15 +28,16 @@ npm install -g react-native-cli
 
 Android Studio requires the Java SE Development Kit(JDK), version 8. 
 
-- To download go here [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
-
-###### 2. Android JDK
 In your terminal type
 ```
 $ javac -version
 ```
 If you get 1.8.x_xxx, download [Android Studio](https://developer.android.com/studio/install.html). Install the AVD and HAXM.
+
+- To download Java go here [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+
+###### 2. Android JDK
 
 #(maybe standard installation is okay too?)
 

@@ -33,53 +33,68 @@
 ## To run:
 
 
-`$ npm install` for iOS:
+`$ npm install` 
+
+For iOS:
 
 ```
 $ react-native run-ios
 ```
-for Android
+For Android:
+```
 $ react-native run-android
->If you get an error while building that says "something" you need to follow the following steps cd into your folder AwsomeProject and run the following in your terminal
-	
->"cd android
->touch local.properties
->cd .."
+```
 
->open up the local.properties file and enter "sdk.dir = /usr/local/Cellar/android-sdk/24.4.1_1"
+If you get an error while building that says "something" you need to follow the following steps:
 
->cd back into AwsomeProject and run "react-native run-android"
+- cd into your folder AwsomeProject and run the following in your terminal:
+
+```
+cd android
+touch local.properties
+cd ..
+```
+
+- open up the local.properties file and copy & paste `sdk.dir = /usr/local/Cellar/android-sdk/24.4.1_1`
+
+- cd back into AwsomeProject and run `react-native run-android`
 
 ##AppRegistry
->AppRegistry is much like reactDOM.render() but AppRegistry looks like this
->AppRegistry.registerComponent('WHAT YOU NAMED YOUR PROJECT', () => ReactComponent);
+AppRegistry is much like `reactDOM.render()` but AppRegistry looks like this:
+`AppRegistry.registerComponent('WHAT YOU NAMED YOUR PROJECT', () => ReactComponent);`
 
 ## Elements
-###### <div\> = < View \>
->they work the same in both web and React-Native 
+##### `<div\> = < View \>`
+They work the same in both web and React-Native 
 
-###### <p\> =  < Text \>
->they work the same in both web and React-Native
+##### `<p\> =  < Text \>`
+They work the same in both web and React-Native
 
-###### <img\> =  < Image \>
->Image tags In react native take a few properties today we will be working with source and style
+##### `<img\> =  < Image \>`
+Image tags In react native take a few properties today we will be working with source and style
 
->###### Network Image
-><Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} style={{width: 400, height: 400}} /\>
+##### Network Image
 
->Unlike with static resources, you will need to manually specify the dimensions of your image.
+```
+<Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} style={{width: 400, height: 400}} /\>
+```
 
->######Static resource
-><Image source={require('./my-icon.png')} /\>
+Unlike with static resources, you will need to manually specify the dimensions of your image.
 
->Image tags can only accept .png images
+#####Static resource
 
-###### background image= <Image\> </Image\>
->background Images work just like an Image tag but are just not self closing any elements between them will display on top of your picture.
+```
+<Image source={require('./my-icon.png')} /\>
+```
 
-###### <input\> = <TextInput/\>
+Image tags can only accept `.png` images
 
-###### <ul\> = <ListView/\>
->this is a little more difficult than most becuase this does not work like your normal <ul\> we will get back to this after we cover state.
+##### `background image= <Image\> </Image\>`
+Background Images work just like an Image tag but are just not self closing any elements between them will display on top of your picture.
 
->
+##### `<input\> = <TextInput/\>`
+
+##### `<ul\> = <ListView/\>`
+This is a little more difficult than most becuase this does not work like your normal `<ul\> `we will get back to this after we cover state.
+
+
